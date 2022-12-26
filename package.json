@@ -1,0 +1,29 @@
+{
+  "name": "webservice-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "lint": "eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaelahwi/webservice-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaelahwi/webservice-api/issues"
+  },
+  "homepage": "https://github.com/yaelahwi/webservice-api#readme",
+  "devDependencies": {
+    "eslint": "^8.30.0"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.1.0",
+    "nanoid": "^3.3.4"
+  }
+}
